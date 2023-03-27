@@ -155,8 +155,8 @@
             const chatMessage = document.createElement('div');
             chatMessage.classList.add('chat-message');
             chatMessage.innerHTML = `
-    <p>${chatInput.value}</p>
-  `;
+                                    <p>${chatInput.value}</p>
+                                    `;
             chatBox.appendChild(chatMessage);
 
             //userMessage 메세지 추가
@@ -191,10 +191,9 @@
             const link = document.createElement('a');
             link.href = 'https://toss.me/didjsrne';
             link.target = '_blank'
-            link.innerHTML = '복채 보내기';
+            link.innerHTML = '후원 보내기';
             p.appendChild(link);
             devasiMessage.appendChild(p);
-            "<p> <a href='https://toss.me/didjsrne' target='_blank'>복채 보내기</a></p>";
             chatBox.appendChild(devasiMessage);
         };
 
